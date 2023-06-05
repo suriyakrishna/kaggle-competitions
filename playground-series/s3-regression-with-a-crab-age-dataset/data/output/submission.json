@@ -54,5 +54,19 @@
         "model" : "DeepLearningCNNModel",
         "train_mae" :  1.3982829068238058,
         "test_mae": 1.382697977303645
+    },
+    {
+        "file_name" : "crab_age_hgbr_20230602_121112.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Duplicates Removed and Robust Scaler",
+        "model" : "HistGradientBoostingRegressor(loss = 'absolute_error')",
+        "train_mae" :  1.3652769407915495,
+        "test_mae": 1.3678437458125972
+    },
+    {
+        "file_name" : "crab_age_hgbr_1_20230602_122929.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Duplicates Removed and Robust Scaler",
+        "model" : "HistGradientBoostingRegressor(loss = 'absolute_error')",
+        "train_mae" :  1.3542088772034733,
+        "test_mae": 1.3598284710619022
     }
 ]
