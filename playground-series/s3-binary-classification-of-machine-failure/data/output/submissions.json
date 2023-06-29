@@ -1,0 +1,16 @@
+[
+    {
+        "file_name" : "machine_failure_hgbc_20230613_121503.csv",
+        "note" : "Train - (Original + Synthetic), Robust Scaler and Ordinal Encoding - Type column",
+        "model" : "HistGradientBoostingClassifier",
+        "train_auc" :  0.9011293111889523,
+        "test_auc": 0.89187742522939
+    },
+    {
+        "file_name" : "machine_failure_lr_20230613_121513.csv",
+        "note" : "Train - (Original + Synthetic), Robust Scaler and Ordinal Encoding - Type column",
+        "model" : "LogisticRegression",
+        "train_auc" :  0.8963064518608215,
+        "test_auc": 0.8899474679554528
+    }
+]

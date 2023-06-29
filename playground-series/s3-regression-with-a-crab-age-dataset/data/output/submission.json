@@ -1,0 +1,72 @@
+[
+    {
+        "file_name" : "crab_age_regressor_20230601_174859.csv",
+        "note" : "Outliers Removed and Synthetic Data for Training",
+        "model" : "LinearRegressor",
+        "train_mae" : 1.4749458233816777,
+        "test_mae": 1.4882891846117934
+    },
+    {
+        "file_name" : "crab_age_regressor_20230601_175626.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Excluded age (1, 2) data",
+        "model" : "LinearRegressor",
+        "train_mae" : 1.4914895653961788,
+        "test_mae": 1.4581676105492605
+    },
+    {
+        "file_name" : "crab_age_regressor_20230601_175813.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Included all age data",
+        "model" : "LinearRegressor",
+        "train_mae" :  1.47357935187672,
+        "test_mae": 1.5153354764364915
+    },
+    {
+        "file_name" : "crab_age_regressor_20230601_181658.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Robust Scaler",
+        "model" : "RandomForestRegressor",
+        "train_mae" :  1.4016944360578665,
+        "test_mae": 1.453057241281014
+    },
+    {
+        "file_name" : "crab_age_regressor_20230601_182821.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Excluded age (1, 2) data, and Robust Scaler",
+        "model" : "RandomForestRegressor",
+        "train_mae" :  1.4169298801717838,
+        "test_mae": 1.39827169851853
+    },
+    {
+        "file_name" : "crab_age_gbr_1_20230602_113648.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Duplicates Removed and Robust Scaler",
+        "model" : "GradientBoostingRegresson(max_depth=4)",
+        "train_mae" :  1.3919540012282718,
+        "test_mae": 1.395809964978591
+    },
+    {
+        "file_name" : "crab_age_dl_model_20230602_114312.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Duplicates Removed and Robust Scaler",
+        "model" : "DeepLearningModel",
+        "train_mae" :  1.39445065236128,
+        "test_mae": 1.3742114200652131
+    },
+    {
+        "file_name" : "crab_age_dl_cnn_model_20230602_114342.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Duplicates Removed and Robust Scaler",
+        "model" : "DeepLearningCNNModel",
+        "train_mae" :  1.3982829068238058,
+        "test_mae": 1.382697977303645
+    },
+    {
+        "file_name" : "crab_age_hgbr_20230602_121112.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Duplicates Removed and Robust Scaler",
+        "model" : "HistGradientBoostingRegressor(loss = 'absolute_error')",
+        "train_mae" :  1.3652769407915495,
+        "test_mae": 1.3678437458125972
+    },
+    {
+        "file_name" : "crab_age_hgbr_1_20230602_122929.csv",
+        "note" : "Outliers Removed, Original and Synthetic data for Training, Duplicates Removed and Robust Scaler",
+        "model" : "HistGradientBoostingRegressor(loss = 'absolute_error')",
+        "train_mae" :  1.3542088772034733,
+        "test_mae": 1.3598284710619022
+    }
+]

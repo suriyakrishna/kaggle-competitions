@@ -1,0 +1,23 @@
+[
+    {
+        "file_name" : "test_predicted_gbr_20230511_112120.csv",
+        "note" : "Dropped - MaxOfUpperTRange, MinOfUpperTRange, MaxOfLowerTRange, MinOfLowerTRange, and RainingDays. PCA - 11 Components",
+        "model" : "GradientBoostingRegressor",
+        "train_mae" : 354.4782526775884,
+        "test_mae": 368.8311599417969
+    },
+    {
+        "file_name" : "test_predicted_gbr_20230511_112405.csv",
+        "note" : "Dropped - MaxOfUpperTRange, MinOfUpperTRange, MaxOfLowerTRange, MinOfLowerTRange, and RainingDays.",
+        "model" : "GradientBoostingRegressor",
+        "train_mae" : 343.6031741173103,
+        "test_mae": 353.0585439280637
+    },
+    {
+        "file_name" : "test_predicted_gbr_20230511_124029.csv",
+        "note" : "Included Original. Dropped - MaxOfUpperTRange, MinOfUpperTRange, MaxOfLowerTRange, MinOfLowerTRange, and RainingDays.",
+        "model" : "GradientBoostingRegressor",
+        "train_mae" : 337.41944267835765,
+        "test_mae": 332.3592986983095
+    }
+]
